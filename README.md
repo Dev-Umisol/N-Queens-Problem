@@ -70,4 +70,5 @@ n-queens-solver/
 ├── DepthFirstSearchAlgorithm.py     # dfs_n_queens function with is_safe helper
 └── README.md
 ```
-Part of my Python learning journey 🐍 — exploring DFS, coordinate math, and classic backtracking problems
+
+*Part of my Python learning journey 🐍 — exploring DFS, coordinate math, and classic backtracking problems*
