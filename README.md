@@ -26,7 +26,7 @@ This project implements a solver for the N-Queens Problem: placing n chess queen
 
 ---
 
-##💡 How It Works
+## 💡 How It Works
 
 The algorithm starts with an empty board and tries to place a queen in the first available row. For every column in that row, it checks if the position is "safe" from previously placed queens. If safe, it pushes the new state to the stack and moves to the next row. If no columns are safe, it "backtracks" by popping the last state and trying the next column.
 ```
@@ -53,7 +53,7 @@ dfs_n_queens(3)  # []
 
 ---
 
-##🚀 Future Improvements
+## 🚀 Future Improvements
 
 - [ ] Implement a bitmasking approach to further optimize the diagonal collision checks.
 - [ ] Add a visualization module to print the list output as an ASCII chessboard (e.g., [1, 3, 0, 2] → . Q . .).
